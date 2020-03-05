@@ -136,40 +136,41 @@ ul {
 }
 
 #latest-post article {
-	
+	height: 836px;
 	background-color: rgba(175, 175, 175,0.3);
 }
 
 #latest-post article h5 {
 	text-align: left;
 	color: rgba(175, 175, 175,0.6);
-	padding:5% 8% 0 8%;
+	padding:8% 8% 0 8%;
 
 }
 
 #latest-post article h3{
 	text-align: left;
 	font-size: 300%;
-	padding:0 8% 0 8%;
+	padding:0 8% 13% 8%;
 }
 
 #latest-post article h4 {
 	text-align: left;
 	color: rgb(175, 175, 175);
-	padding:0 8% 0 8%;
+	padding:0 8% 5% 8%;
 }
 
 #latest-post article p {
 
 	color:rgb(122, 122, 122);
 	text-align: left;
-	padding:0 8% 0 8%;
+	padding:0 8% 60% 8%;
 }
 
 #latest-post article .post-button {
 	background-color: rgba(175, 175, 175, 0.7);
 	height: 15%;
 	width: 15%;
+	align-self: flex-end;
 
 }
 
@@ -207,4 +208,51 @@ ul {
 
 .text-center {
 	text-align: center!important;
+}
+
+#see-all {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	margin: 70px 0 110px;
+}
+
+#see-all a {
+	height: 30px;
+	border-bottom: 3px solid red;
+	text-decoration: none;
+}
+
+#book-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: rgb(189, 189, 189);
+	align-items: center;
+}
+
+#book-container h5 {
+	margin: 100px 0 30px;
+}
+
+#book-container article {
+	width: 55%;
+	align-self: center;
+	text-align: center;
+}
+
+#book-container article h3{
+	font-size: 45px;
+}
+
+#book-container article p{
+	font-size: 25px;
+	margin: 30px 0;
+}
+
+#book-container article button{
+	font-size: 25px;
+	margin: 30px 0;
+	padding: 15px 5%;
 }
