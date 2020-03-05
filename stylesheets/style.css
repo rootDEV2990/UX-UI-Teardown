@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	margin: 0;
+	width: 100vw;
+}
+
+ul {
+	margin: 0;
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 180px;
+	width: 100%;
+	background-color: rgb(122, 122, 122);
+}
+
+.nav-container li {
+	list-style-type: none;
+}
+
+#logo{
+	height: 75px;
+	width: 204px;
+}
+
+.nav-item {
+	height: 120px;
+	width: 18%
+}
+
+#nav-b {
+	height: 50px;
+	width: 120px;
+}
+
+#feat-grid {
+	display: grid;
+	grid-template-columns: repeat(2,50%);
+	grid-template-rows: repeat(2,50%);
+	height: 1326px;
+}
+
+.feat-post {
+	width: 100%;
+	background-color: rgb(175, 175, 175);
+}
