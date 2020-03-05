@@ -396,3 +396,151 @@ p {
 	margin-left: 15%;
 	transform: rotate(-15deg);
 }
+
+.curated-post {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr) 120px;
+	
+}
+
+.curated-post article:first-child {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+form {
+	background-color: red;
+	border-radius: 25px;
+}
+
+fieldset div h2 {
+	padding: 8% 0;
+	color: white;
+	font-size: 3rem;
+}
+
+fieldset div p {
+	line-height: 35px;
+}
+
+.btn-submit {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	height: 70px;
+	padding: 5% 0;
+
+}
+
+.btn-submit label:nth-child(1) {
+	text-align: right;
+
+}
+
+.btn-submit input {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100%;
+	padding-left: 3%;
+
+
+}
+
+.btn-submit button {
+	float: left;
+	height: 110%;
+	border-top-right-radius:10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	padding: 0 10% ;
+}
+
+
+.curated-post form {
+	grid-column: 2/4;
+	grid-row: 2/3;
+}
+
+.curated-post form img {
+	height: 450px;
+}
+
+.curated-post fieldset div:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
+.curated-post fieldset input {
+	width: 40%;
+}
+
+.curated-post article h3 {
+	padding: 12% 0 0 20%;
+	font-size: .7rem;
+}
+.curated-post article p {
+	padding: 3% 0 0 20%;
+	font-weight: 500;
+	font-size:2rem;
+}
+
+.curated-post article ul {
+	padding: 6% 0 0 25%;
+}
+
+.curated-post article li {
+	list-style-type: circle;
+	color: red;
+	padding: 3% 0;
+}
+
+.curated-post article li a {
+	color: blue;
+	font-size: 1.2rem;
+}
+
+.curated-post section {
+	padding: 9% 0;
+	grid-column: 1/4;
+	text-align:center;
+	
+
+}
+
+.curated-post section hr {
+	color: red;
+	width: 14%;
+	text-align: center;
+
+	
+
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+footer nav {
+	padding: 0 12%;
+}
+
+footer ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: circle;
+	text-align: center;
+	
+}
+
+footer li {
+	margin: 0 3%;
+}
