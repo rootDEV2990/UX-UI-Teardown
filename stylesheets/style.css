@@ -78,6 +78,10 @@ ul {
   width: 18%;
 }
 
+.heading-fix {
+  display: none;
+}
+
 #nav-b {
   height: 45px;
   width: 120px;

@@ -1,6 +1,6 @@
-# Project Name
+# UX/UI Design - HeatMap
 
-> One paragraph statement about the project.
+> The objective of our project was to practice and learn about UX UI design and the Heat Map.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,50 +8,55 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML,
+- CSS,
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Simply download the zip and decompress. Once decompressed, double click or open index.html in any web browser. 
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Any web browser will do, Mozilla, Safari, or Chrome. 
+
 ### Setup
+
+None needed drecompress and drag and drop onto browser. 
 
 ### Install
 
+None needed. 
+
 ### Usage
+
+Microverse Curriculum. 
 
 ### Run tests
 
+Text editor and web browser.
+
 ### Deployment
+
+Localhost. 
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Roberto**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@]()
+- Twitter: [@]()
+- Linkedin: [linkedin]()
 
-👤 **Author2**
+👤 **Miguel Angel Enciso Sanchez**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rootDEV2990](https://github.com/rootDEV2990)
+- Twitter: [@m29902](https://twitter.com/m29902)
+- Linkedin: [linkedin](https://www.linkedin.com/in/miguel-enciso-6474741a1/)
 
 ## 🤝 Contributing
 
@@ -62,13 +67,7 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+ 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is for microverse course purposes.
