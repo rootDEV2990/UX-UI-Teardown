@@ -1,10 +1,10 @@
 # UX/UI Design - HeatMap
 
-> The objective of our project was to practice and learn about UX UI design and the Heat Map.
+> The objective of our project was to practice and learn about UX - UI design and the Heat Map.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Cloned site first and applied Heat Map to span within elements. 
 
 ## Built With
 
@@ -46,11 +46,11 @@ Localhost.
 
 ## Authors
 
-👤 **Roberto**
+👤 **Roberto Perez Jimenez**
 
-- Github: [@]()
-- Twitter: [@]()
-- Linkedin: [linkedin]()
+- Github: [@LoboArkano](https://github.com/LoboArkano)
+- Twitter: [@LoboArcano92](https://twitter.com/LoboArcano92)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jos%C3%A9-roberto-p%C3%A9rez-jim%C3%A9nez-97a729195/ )
 
 👤 **Miguel Angel Enciso Sanchez**
 
