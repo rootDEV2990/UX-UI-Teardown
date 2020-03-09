@@ -14,37 +14,46 @@ ul {
 }
 
 .hottest {
-  background-color: black;
   color: black;
 }
 
+.hottest-bg {
+  background-color: white;
+  text-align:center;
+  line-height: 60px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 .hotter {
-  background-color: rgb(42, 42, 42);
   color: rgb(42, 42, 42);
 }
 
 .hot {
-  background-color: rgb(84, 84, 84);
   color: rgb(84, 84, 84);
 }
 
+.hot-bg {
+  background-color: rgb(84, 84, 84);
+}
+
 .warm {
-  background-color: rgb(128, 128, 128);
   color: rgb(128, 128, 128);
 }
 
+.warm-bg {
+  background-color: rgb(128, 128, 128);
+}
+
 .cold {
-  background-color: rgb(172, 172, 172);
   color: rgb(172, 172, 172);
 }
 
 .colder {
-  background-color: rgb(214, 214, 214);
   color: rgb(214, 214, 214);
 }
 
 .coldest {
-  background-color: white;
   color: white;
 }
 
@@ -55,7 +64,7 @@ ul {
   align-items: center;
   height: 180px;
   width: 100%;
-  background-color: rgb(122, 122, 122);
+  background-color: rgb(250, 250, 250);
 }
 
 .nav-container li {
@@ -65,11 +74,13 @@ ul {
 .logo {
   height: 75px;
   width: 204px;
+  background-color: rgb(94, 94, 94);
 }
 
 .nav-item {
   height: 120px;
   width: 18%;
+  background-color: rgb(114, 114, 114);
 }
 
 .heading-fix {
@@ -80,6 +91,7 @@ ul {
   height: 45px;
   width: 120px;
   padding: 38px 0;
+  background-color: rgb(94, 94, 94);
 }
 
 .nav-b button {
@@ -181,7 +193,6 @@ ul {
 
 .latest-post article {
   height: 836px;
-  background-color: rgba(175, 175, 175, 0.3);
 }
 
 .latest-post article h5 {
@@ -219,6 +230,8 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(94, 94, 94);
+  border-radius: 30px;
 }
 
 .post-call-to-action img {
@@ -255,8 +268,9 @@ ul {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(94, 94, 94);
   align-items: center;
+  padding-bottom: 4rem;
 }
 
 .book-container .book-title {
@@ -287,6 +301,7 @@ ul {
 .community-links {
   display: grid;
   grid-template-columns: 2fr 4fr;
+  padding-bottom: 6rem;
 }
 
 .title-180 {
@@ -300,12 +315,11 @@ ul {
 .community-links img {
   margin-top: 20%;
   margin-left: 12%;
-  border: 6px solid rgb(128, 128, 128);
-  border-radius: 15px;
 }
 
 .community-links div:first-child {
   transform: rotate(-13deg);
+  margin: 30px 0 0 40px;
 }
 
 .community-links div:nth-child(2) {
@@ -368,8 +382,6 @@ ul {
   margin-top: 15px;
   margin-left: 8%;
   transform: rotate(-20deg);
-  border: 4px solid rgb(128, 128, 128);
-  border-radius: 10px;
 }
 
 .community-post .community-article .post-info {
@@ -382,7 +394,7 @@ ul {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 100px;
-  background-color: rgb(172, 172, 172);
+  padding-bottom: 4rem;  
 }
 
 .book-section div:first-child {
