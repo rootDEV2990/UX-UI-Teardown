@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(172, 172, 172);
 }
 
 nav {
@@ -15,43 +16,36 @@ ul {
 .hottest {
   background-color: black;
   color: black;
-  border: 2px solid black;
 }
 
 .hotter {
   background-color: rgb(42, 42, 42);
   color: rgb(42, 42, 42);
-  border: 2px solid black;
 }
 
 .hot {
   background-color: rgb(84, 84, 84);
   color: rgb(84, 84, 84);
-  border: 2px solid black;
 }
 
 .warm {
   background-color: rgb(128, 128, 128);
   color: rgb(128, 128, 128);
-  border: 2px solid black;
 }
 
 .cold {
   background-color: rgb(172, 172, 172);
   color: rgb(172, 172, 172);
-  border: 2px solid black;
 }
 
 .colder {
   background-color: rgb(214, 214, 214);
   color: rgb(214, 214, 214);
-  border: 2px solid black;
 }
 
 .coldest {
   background-color: white;
   color: white;
-  border: 2px solid black;
 }
 
 .nav-container {
@@ -68,7 +62,7 @@ ul {
   list-style-type: none;
 }
 
-#logo {
+.logo {
   height: 75px;
   width: 204px;
 }
@@ -82,17 +76,17 @@ ul {
   display: none;
 }
 
-#nav-b {
+.nav-b {
   height: 45px;
   width: 120px;
   padding: 38px 0;
 }
 
-#nav-b button {
+.nav-b button {
   padding: 20px 25px;
 }
 
-#feat-grid {
+.feat-grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(2, 50%);
@@ -102,83 +96,85 @@ ul {
 .feat-post:first-child {
   grid-column: 1/3;
   grid-row: 1/2;
-  background-color: rgb(175, 175, 175);
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(64, 64, 64);
   padding-top: 30%;
   font-size: 30px;
 }
 
-#feat-grid .feat-post:nth-child(2) {
+.feat-grid .feat-post:nth-child(2) {
   grid-column: 3/5;
   grid-row: 1/2;
-  background-color: rgb(175, 175, 175);
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(94, 94, 94);
   padding-top: 30%;
   font-size: 30px;
 }
 
-#feat-grid .feat-post:nth-child(3) {
+.feat-grid .feat-post:nth-child(3) {
   grid-column: 1/3;
   grid-row: 2/3;
-  background-color: rgb(175, 175, 175);
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(114, 114, 114);
   padding-top: 30%;
   font-size: 30px;
 }
 
-#feat-grid .feat-post:nth-child(4) {
+.feat-grid .feat-post:nth-child(4) {
   grid-column: 3/5;
   grid-row: 2/3;
-  background-color: rgb(175, 175, 175);
-  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(135, 135, 135);
   padding-top: 30%;
   font-size: 30px;
 }
 
-#main-title {
+.main-title {
   position: relative;
   left: 50%;
   grid-column: 1/3;
   grid-row: 1/2;
 }
 
-#main-title div {
+.main-title article {
   display: flex;
   justify-content: center;
 }
 
-#main-title div h2 {
+.main-title article h2 {
   margin-top: 13%;
   padding: 7%;
   width: 250px;
   text-align: center;
 }
 
-#call-to-action {
+.call-to-action {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
-#call-to-action div:first-child {
+.call-to-action div:first-child {
   padding: 12% 18%;
   background-color: rgb(172, 172, 172);
 }
 
-#call-to-action div:nth-child(2) {
+.call-to-action div:nth-child(2) {
   background-color: black;
 }
 
-#call-to-action ul {
+.call-to-action ul {
   padding: 12% 5%;
 }
 
-#call-to-action button {
+.call-to-action button {
   width: 100%;
   padding: 3% 0;
   background-color: rgb(84, 84, 84);
 }
 
-#latest-post {
+.call-to-action article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.latest-post {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -186,51 +182,44 @@ ul {
   grid-row: 1/2;
 }
 
-#latest-post #latest-title {
+.latest-post .latest-title {
   display: none;
 }
 
-#latest-post article {
+.latest-post article {
   height: 836px;
   background-color: rgba(175, 175, 175, 0.3);
-  border: 2px solid black;
 }
 
-#latest-post article h5 {
+.latest-post article h5 {
   text-align: left;
   color: rgba(175, 175, 175, 0.6);
   padding: 8% 8% 0 8%;
 }
 
-#latest-post article h3 {
+.latest-post article h3 {
   text-align: left;
   font-size: 300%;
   padding: 0 8% 13% 8%;
 }
 
-#latest-post article h4 {
+.latest-post article h4 {
   text-align: left;
   color: rgb(175, 175, 175);
   padding: 0 8% 5% 8%;
 }
 
-#latest-post article p {
+.latest-post article p {
   color: rgb(122, 122, 122);
   text-align: left;
   padding: 0 8% 60% 8%;
 }
 
-#latest-post article .post-button {
+.latest-post article .post-button {
   background-color: rgb(42, 42, 42);
   height: 15%;
   width: 15%;
   align-self: flex-end;
-}
-
-#call-to-action article {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .post-call-to-action {
@@ -248,7 +237,7 @@ ul {
   text-align: left;
 }
 
-.post-call-to-action #post-call-button {
+.post-call-to-action .post-call-button {
   padding: 5% 6%;
 }
 
@@ -264,51 +253,50 @@ ul {
   margin: 70px 0 110px;
 }
 
-#see-all a {
+.see-all a {
   height: 30px;
-  border-bottom: 3px solid red;
   text-decoration: none;
 }
 
-#book-container {
+.book-container {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(172, 172, 172);
   align-items: center;
 }
 
-#book-container #book-title {
+.book-container .book-title {
   margin: 100px 0 30px;
 }
 
-#book-container article {
+.book-container article {
   width: 55%;
   align-self: center;
   text-align: center;
 }
 
-#book-container article h3 {
+.book-container article h3 {
   font-size: 45px;
 }
 
-#book-container article p {
+.book-container article p {
   font-size: 25px;
   margin: 30px 0;
 }
 
-#book-container article button {
+.book-container article button {
   font-size: 25px;
   margin: 30px 0;
   padding: 15px 5%;
 }
 
-#community-links {
+.community-links {
   display: grid;
   grid-template-columns: 2fr 4fr;
 }
 
-#title-180 {
+.title-180 {
   transform: rotate(90deg);
   display: inline-block;
   padding-left: 12%;
@@ -316,22 +304,22 @@ ul {
   left: -150px;
 }
 
-#community-links img {
+.community-links img {
   margin-top: 20%;
   margin-left: 12%;
   border: 6px solid rgb(128, 128, 128);
   border-radius: 15px;
 }
 
-#community-links div:first-child {
+.community-links div:first-child {
   transform: rotate(-13deg);
 }
 
-#community-links div:nth-child(2) {
+.community-links div:nth-child(2) {
   padding: 9% 12% 0 0;
 }
 
-#community-links div:nth-child(2) h3 {
+.community-links div:nth-child(2) h3 {
   padding: 0 0 9% 0;
 }
 
@@ -342,7 +330,7 @@ ul {
   margin-top: 50px;
 }
 
-.community-post #see-all-cont {
+.community-post .see-all-cont {
   grid-column: 2/4;
   grid-row: 4/5;
   text-align: center;
@@ -397,35 +385,35 @@ ul {
   margin-bottom: 30px;
 }
 
-#book-section {
+.book-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 100px;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(172, 172, 172);
 }
 
-#book-section div:first-child {
+.book-section div:first-child {
   padding-top: 35px;
   padding-left: 10%;
   padding-right: 5%;
 }
 
-#book-section div:first-child h5,
-#book-section div:first-child h3,
-#book-info {
+.book-section div:first-child h5,
+.book-section div:first-child h3,
+.book-info {
   padding-bottom: 30px;
 }
 
-#book-section div:first-child h3 {
+.book-section div:first-child h3 {
   font-size: 25px;
 }
 
-#book-section div:first-child button {
+.book-section div:first-child button {
   padding: 15px 0;
   width: 37%;
 }
 
-#book-section div:nth-child(2) img {
+.book-section div:nth-child(2) img {
   height: 372px;
   width: 250px;
   margin-top: -50px;
@@ -444,33 +432,28 @@ ul {
   grid-row: 1/2;
 }
 
-form {
-  border: 3px solid rgb(84, 84, 84);
-  border-radius: 25px;
-}
-
-fieldset div #form-title {
+fieldset div .form-title {
   padding: 8% 0;
   color: white;
   font-size: 3rem;
 }
 
-fieldset div #form-info {
+fieldset div .form-info {
   line-height: 35px;
 }
 
-#submit-container {
+.submit-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 70px;
   padding: 5% 0;
 }
 
-#submit-container label:nth-child(1) {
+.submit-container label:nth-child(1) {
   text-align: right;
 }
 
-#submit-container input {
+.submit-container input {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 10px;
@@ -479,7 +462,7 @@ fieldset div #form-info {
   padding-left: 3%;
 }
 
-#submit-container .btn-submit {
+.submit-container .btn-submit {
   float: left;
   height: 110%;
   border-top-right-radius: 10px;
@@ -494,19 +477,20 @@ fieldset div #form-info {
   grid-row: 2/3;
 }
 
-.curated-post form #form-img {
+.curated-post form .form-img {
   height: 450px;
 }
 
-.curated-post fieldset #fieldset-container:nth-child(1) {
+.curated-post fieldset .fieldset-container:nth-child(1) {
   display: flex;
   flex-direction: column;
   width: 100%;
   text-align: center;
 }
 
-.curated-post fieldset #form-input {
+.curated-post fieldset .form-input {
   width: 40%;
+  background-color: rgb(84, 84, 84);
 }
 
 .curated-post .curated-article .curated-category {
@@ -526,7 +510,7 @@ fieldset div #form-info {
 
 .curated-post .curated-article li {
   list-style-type: circle;
-  color: red;
+  color: black;
   padding: 3% 0;
 }
 
@@ -557,7 +541,7 @@ footer nav {
   padding: 0 12%;
 }
 
-footer #category-list {
+footer .category-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -577,7 +561,7 @@ footer .category-item {
   grid-template-rows: 100px 150px;
 }
 
-.footer-grid #footer-img1 {
+.footer-grid .footer-img1 {
   grid-column: 1 / 2;
   grid-row: 1 / 3;
   height: 160px;
@@ -586,7 +570,29 @@ footer .category-item {
   padding-left: 30%;
 }
 
-.footer-grid #footer-img2 {
+.img {
+  background-color: black;
+  height: 100%;
+  display:block;
+
+}
+
+.img-box-sm {
+  height: 120px;
+  width: 120px;
+}
+
+.img-box {
+  height: 250px;
+  width: 250px;
+}
+
+.img-box-lg {
+  height: 950px;
+  width: 950px;
+}
+
+.footer-grid .footer-img2 {
   grid-column: 3 / 4;
   grid-row: 1 / 3;
   height: 160px;
@@ -595,7 +601,7 @@ footer .category-item {
   padding-right: 30%;
 }
 
-.footer-grid #footer-info {
+.footer-grid .footer-info {
   padding: 10px 17%;
   text-align: center;
 }
