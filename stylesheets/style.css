@@ -18,8 +18,8 @@ ul {
 }
 
 .hottest-bg {
-  background-color: white;
-  text-align:center;
+  background-color: rgb(48, 48, 48);
+  text-align: center;
   line-height: 60px;
   font-weight: 600;
   font-size: 2rem;
@@ -49,12 +49,20 @@ ul {
   color: rgb(172, 172, 172);
 }
 
+.cold-bg {
+  background-color: rgb(201, 201, 201);
+}
+
 .colder {
   color: rgb(214, 214, 214);
 }
 
 .coldest {
-  color: white;
+  color: rgb(224, 224, 224);
+}
+
+.coldest-bg {
+  background-color: rgb(224, 224, 224);
 }
 
 .nav-container {
@@ -80,6 +88,8 @@ ul {
 .nav-item {
   height: 120px;
   width: 18%;
+  text-align: center;
+  line-height: 120px;
   background-color: rgb(114, 114, 114);
 }
 
@@ -152,11 +162,11 @@ ul {
 .call-to-action {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: rgb(56, 56, 56);
 }
 
 .call-to-action div:first-child {
   padding: 12% 18%;
-  background-color: rgb(172, 172, 172);
 }
 
 .call-to-action div:nth-child(2) {
@@ -216,7 +226,7 @@ ul {
 .latest-post article p {
   color: rgb(122, 122, 122);
   text-align: left;
-  padding: 0 8% 60% 8%;
+  padding: 0 8% 45% 8%;
 }
 
 .latest-post article .post-button {
@@ -237,6 +247,7 @@ ul {
 .post-call-to-action img {
   width: 60%;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .left-text {
@@ -394,7 +405,7 @@ ul {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 100px;
-  padding-bottom: 4rem;  
+  padding-bottom: 4rem;
 }
 
 .book-section div:first-child {
@@ -571,7 +582,7 @@ footer .category-item {
   grid-row: 1 / 3;
   height: 160px;
   width: 160px;
-  padding-top: 35%;
+  padding-top: 15%;
   padding-left: 30%;
 }
 
@@ -589,6 +600,7 @@ footer .category-item {
 .img-box {
   height: 250px;
   width: 250px;
+  margin: 30px 0;
 }
 
 .img-box-lg {
@@ -601,11 +613,15 @@ footer .category-item {
   grid-row: 1 / 3;
   height: 160px;
   width: 160px;
-  padding-top: 45%;
+  padding-top: 15%;
   padding-right: 30%;
 }
 
 .footer-grid .footer-info {
   padding: 10px 17%;
+  text-align: center;
+}
+
+.footer-contact {
   text-align: center;
 }
